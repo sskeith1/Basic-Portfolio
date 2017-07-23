@@ -10,7 +10,7 @@ body {
 }
 
 .panel-heading {
-	font-size: 22px;
+	font-size: 26px;
 	font-weight: bold;
 	width:100%; 
 	height: auto; 
@@ -26,6 +26,22 @@ body {
 #face {
 	float: left;
 	padding: 10px 26px 26px 0px;
+}
+
+.inputs {
+	padding: 20px;
+}
+
+#portfolioimg {
+	padding: 24px 18px;
+}
+
+
+
+/*connect & footer*/
+
+.connect {
+	padding: 2px;
 }
 
 #styledimg {
