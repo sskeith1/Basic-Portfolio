@@ -1,22 +1,35 @@
 * {
 	color: #;
+	outline: solid red 1px;
 }
 
 body {
 	background: #c1c1c1;
 	background-image: url(./../images/background.png)
+
 }
 
-#secondheader {
-	{ width:100%; height:1px; background: black }
-}
-
-.inputs {
-  
+.panel-heading {
+	font-size: 22px;
+	font-weight: bold;
+	width:100%; 
+	height: auto; 
+	background: black;
 }
 
 #walloftext {
-	line-height: 24px;
+	padding: 26px;
+	font-size: 18px;
+	line-height: 200%;
+}
+
+#face {
+	float: left;
+	padding: 10px 26px 26px 0px;
+}
+
+#styledimg {
+	padding: 2px;
 }
 
 .footer {
