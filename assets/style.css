@@ -17,7 +17,7 @@ body {
 .panel-heading {
 	font-size: 26px;
 	font-weight: bold;
-	width:100%; 
+	width:auto; 
 	height: auto; 
 	background: black;
 }
@@ -39,30 +39,30 @@ body {
 
 
 
-
+#items {
+	width:auto;
+}
 
 .portfolios {
+	position: absolute; 
 	display: inline-block; 
 	position: relative; 
-	width: 80%;
-	height: 80%;
-	padding: 10px;
+	background-size: auto;
+	width: auto;
+	left:18px;
 }
 
 #portfolioimg {
-	padding: 24px 18px;
-	width: 90%;
+	padding: 36px 10px;
+	width: auto;
 	height: 90%;
-	display:block;
-	background-repeat: no-repeat;
-	background-position: center top;
 }
 
 #portfolioimgtext {
 	position: absolute; 
 	float: left;
-	top: 110px;
-	left: 27px;
+	top: 170px;
+	left: 16px;
 	padding: 10px; 
 	background: rgba(252, 252, 252, 0.8);
 	font-size: 22px;
@@ -70,6 +70,11 @@ body {
 	height: auto;
 }
 
+@media screen and (max-width: 768px) {
+	.portfolios {
+		width: 1024px;
+	}
+}
 
 
 
@@ -95,7 +100,7 @@ body {
 	background: #fcfcfc;
 	text-align: center;
 	padding: 14px;
-	position: absolute;
+	position: fixed;
 	width: 100%;
     bottom: 0;
     margin: 0 auto;
